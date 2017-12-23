@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <style type="text/css">
+        button{
+            width: 50%;
+            height: 30px;
+        }
+        body{
+            background-color: deeppink;
+            margin: 0px;
+        }
+        div1{
+            background-color: white;
+            width: 600px;
+            height: 450px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <button>登录</button>
+            <button style="float: right"  >注册帐号</button>
+        </div>
+        <div style="background-color: white">
+            <img src="img/QQ音乐图标.png">
+            <span style="float: left;color: aqua;font-size: 40px">QQ音乐帐号注册</span>
+        </div>
+        <div1>
+            <div style="text-align: center;">
+                <div style="margin: 30px;font-size: 35px">邮箱号注册</div>
+                <div>
+                    <label style="font-size: 20px" for="email">邮箱地址</label>
+                    <input style="width: 50%;height: 40px;font-size: 20px"
+                           type="text" id="email"placeholder="请输入邮箱地址">
+                </div>
+                <div style="margin-top: 20px">
+                    <label style="font-size: 20px" for="password" >登录密码</label>
+                    <input style="width: 50%;height: 40px;font-size: 20px"
+                           type="password" id="password" placeholder="请输入登录密码">
+                </div>
+                <div style="margin-top: 20px">
+                    <input type="checkbox" id="serve">
+                    <label for="serve">同意并遵守
+                        <a href="http://www.qq.com/contract.shtml">
+                            《服务条款》</a></label>
+                </div>
+                <div>
+                    <input style="background-color: cornflowerblue;width: 250px;
+                    height: 40px;margin: 20px" type="submit"value="下一步">
+                </div>
+            </div>
+        </div1>
+</body>
+</html>
